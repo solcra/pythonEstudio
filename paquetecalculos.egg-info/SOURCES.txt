@@ -1,0 +1,9 @@
+sutuo.py
+calculos/__init__.py
+calculos/uso_modulos.py
+calculos/calculos_generales/__init__.py
+calculos/calculos_generales/calculos_generales.py
+paquetecalculos.egg-info/PKG-INFO
+paquetecalculos.egg-info/SOURCES.txt
+paquetecalculos.egg-info/dependency_links.txt
+paquetecalculos.egg-info/top_level.txt
