@@ -7,4 +7,5 @@ Elimina tambien de memoria -> git rm --cached <file>
 Crear lo archivos para enpaquetar -> git commit -m "Mensaje a enviar"
 Mer informacion de git -> git config --list
 Historil de creasion de archivos -> git log <file>
-Mustrar el historial de cambios de un archivo git  show <file>
+Mustrar el historial de cambios de un archivo -> git show <file>
+Mustra que se cambio entre versiones -> git diff <codigo commit> <codigo commit>
