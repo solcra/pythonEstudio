@@ -1,7 +1,9 @@
 Inicio -> git init 
 Mustra el estatu -> git status
 Añade -> git add <file>
+Añade todo los archivos -> git add .
 Elimina -> git rm <file>
 Elimina tambien de memoria -> git rm --cached <file>
 Crear lo archivos para enpaquetar -> git commit -m "Mensaje a enviar"
 Mer informacion de git -> git config --list
+Historil de creasion de archivos -> git log <file>
