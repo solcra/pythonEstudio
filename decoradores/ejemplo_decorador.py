@@ -20,10 +20,10 @@ suma()
 resta()
 
 def funcion_decoradoraParametro(funcion_parametro):
-  def funcion_interio(*args):
+  def funcion_interio(*args, **kwargs):
     #Acciones adicionales que decoran
     print("Vamos a realizar un cálculo con parametro: ")
-    funcion_parametro(*args)
+    funcion_parametro(*args, **kwargs)
     #Acciones adicionales que decoran
     print("Hemos terminado el cálcilo con parametro")
   return funcion_interio
@@ -36,6 +36,11 @@ def suma2(num1, num2):
 def resta2(num1, num2):
   print(num1-num2)
 
+@funcion_decoradoraParametro
+def potencializador(base=3, balor=5):
+  print(pow(base, balor))
+
 
 suma2(23,90)
 resta2(10,5)
+potencializador()
