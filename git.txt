@@ -9,3 +9,8 @@ Mer informacion de git -> git config --list
 Historil de creasion de archivos -> git log <file>
 Mustrar el historial de cambios de un archivo -> git show <file>
 Mustra que se cambio entre versiones -> git diff <codigo commit> <codigo commit>
+resetiar una version anterior suabe -> git reset <commit> --soft
+resetiar una version anterior fuerte -> git reset <commit> --hard
+Historil de git -> git log --stat
+Historia de un archivo modificado editable -> git checkout <comit> <file>
+Historia devolver archivo si no a echado un comi -> git checkout master <file>
