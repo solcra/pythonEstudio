@@ -14,3 +14,6 @@ resetiar una version anterior fuerte -> git reset <commit> --hard
 Historil de git -> git log --stat
 Historia de un archivo modificado editable -> git checkout <comit> <file>
 Historia devolver archivo si no a echado un comi -> git checkout master <file>
+crear el comid y añadiendo los al mismo tiempo -> git comit -am "descricion del commit"
+crear ramas -> git branch <nombre de la rama>
+para cambiar de rama -> git checkout <nombre de la rama>
