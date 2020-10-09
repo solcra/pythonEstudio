@@ -17,3 +17,5 @@ Historia devolver archivo si no a echado un comi -> git checkout master <file>
 crear el comid y añadiendo los al mismo tiempo -> git comit -am "descricion del commit"
 crear ramas -> git branch <nombre de la rama>
 para cambiar de rama -> git checkout <nombre de la rama>
+para saver en que rama estoy -> git branch
+para uniar dos ramas utilizo -> git merge <nombre de la rama>
