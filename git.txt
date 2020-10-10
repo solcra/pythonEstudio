@@ -22,3 +22,4 @@ para uniar dos ramas utilizo -> git merge <nombre de la rama>
 agrregar un origen remoto -> git remote add origin <url> https://github.com/solcra/pythonEstudio.git
 subir a origen remoto -> git push origin master
 Realizar merge en remoto -> git pull origen <nombre de la rama>
+Realizar conbinacion de historial -> git pull origin master --allow-unrelated-histories
