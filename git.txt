@@ -20,6 +20,9 @@ para cambiar de rama -> git checkout <nombre de la rama>
 para saver en que rama estoy -> git branch
 para uniar dos ramas utilizo -> git merge <nombre de la rama>
 agrregar un origen remoto -> git remote add origin <url> https://github.com/solcra/pythonEstudio.git
+para verificar donde se esta guardando -> git remote -v
+para actualizar la url deode se guarda -> git remote set-url <url> git@github.com:solcra/pythonEstudio.git
 subir a origen remoto -> git push origin master
 Realizar merge en remoto -> git pull origen <nombre de la rama>
 Realizar conbinacion de historial -> git pull origin master --allow-unrelated-histories
+Crear llave windows -> ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
